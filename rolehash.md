@@ -14,6 +14,9 @@ There are other roles as well that are string based, without `keccak256()`:
 - "TRIP_ROLE"
 - "UNTRIP_ROLE"
 
+Note: two different versions of `_hasRole` are used, which behave differently!
+
+
 Below is some code that shows the issue:
 In contract `AccessRoles.sol`:
 
