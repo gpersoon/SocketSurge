@@ -9,9 +9,9 @@ The contracts `SwitchboardBase` and `NativeSwitchboardBase` uses two different d
 - In `SwitchboardBase` it is used as `"TRIP_ROLE"` and `"UNTRIP_ROLE"` (so without the `keccak256()`).
 - However in `NativeSwitchboardBase` it is used as `TRIP_ROLE` and `UNTRIP_ROLE` (so with the `keccak256()`).
 
-This means that an account that want to `TRIP`/`UNTRIP` multiple Switchboards, needs to have seperate autorizations, depending on which version of Switchboard is being used. This is non consistent, confusing and errorphrone.
+This means that an account that want to `TRIP`/`UNTRIP` multiple Switchboards, needs to have seperate autorizations, depending on which version of Switchboard is being used. This is not consistent, confusing and error phrone.
 
-Below is some code to show the difference of the the version with and without `keccak256()`.
+Below is some code to show the difference of the version with and without `keccak256()`.
 ```solidity
 // SPDX-License-Identifier: none
 pragma solidity >=0.8.19;
