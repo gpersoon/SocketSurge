@@ -29,6 +29,7 @@ contract TestRole {
 ```
 
 Below is some code that shows where the issue in the source code:
+
 In contract `AccessRoles.sol`:
 ```solidity
 bytes32 constant TRIP_ROLE = keccak256("TRIP_ROLE");
