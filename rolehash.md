@@ -1,5 +1,7 @@
 **Context:**  [SwitchboardBase.sol](https://github.com/SocketDotTech/socket-DL/blob/master/contracts/switchboard/default-switchboards/SwitchboardBase.sol), [AccessRoles.sol](https://github.com/SocketDotTech/socket-DL/blob/master/contracts/utils/AccessRoles.sol), [NativeSwitchboardBase.sol](https://github.com/SocketDotTech/socket-DL/blob/master/contracts/switchboard/native/NativeSwitchboardBase.sol)
 
+**Severity:** Low
+
 **Description:**
 The contracts `SwitchboardBase` and `NativeSwitchboardBase` uses two different definitions of `TRIP_ROLE` and `UNTRIP_ROLE`.
 
