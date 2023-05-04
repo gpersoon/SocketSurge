@@ -27,7 +27,7 @@ Estimated to have a severity of Medium because it fits in: `Smart contract unabl
 
 ### Expected behavior
 
-A possible solution is store the `root` values in temporary variable and only assigned it to `_roots[]` when it is ready.
+A possible solution is store the `root` values in temporary variable and only assign it to `_roots[]` when it is ready.
 See example below:
 
 ```diff
