@@ -30,8 +30,6 @@ Another workaround would be to use alternative values for `Slugs`, but that migh
 
 ### Screenshots
 
--
-
 ### Additional information
 Here is the code for `registerSwitchBoard()`:
 [SocketConfig.sol#L82-L121](https://github.com/SocketDotTech/socket-DL/blob/master/contracts/socket/SocketConfig.sol#L82-L121)
